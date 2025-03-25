@@ -3,6 +3,12 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --color-white: #ffffff;
+  --color-purple: #b266ff;
+}
+
+.sf {
+  background-color: #b266ff;
 }
 
 @theme inline {
@@ -10,6 +16,8 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-primary: var(--color-white);
+  --color-purple-shades: var(--color-pruple);
 }
 
 @media (prefers-color-scheme: dark) {
