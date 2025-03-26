@@ -1,13 +1,5 @@
-import Header from "@/components/shared/Header";
-import HeroSection from "@/sections/HeroSection";
+import MainContent from "@/components/MainContent";
 
-const Home = () => {
-  return (
-    <section>
-      <Header />
-      <HeroSection />
-    </section>
-  );
-};
-
-export default Home;
+export default function Home() {
+  return <MainContent />;
+}

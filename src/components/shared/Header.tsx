@@ -1,6 +1,5 @@
 "use client";
 
-import Logo from "@/assets/logo.svg";
 import { motion } from "framer-motion";
 import { useState } from "react";
 
@@ -8,7 +7,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50   ">
+    <header className="fixed top-0 left-0 right-0 z-50 ">
       <div className="flex justify-between h-16 items-center max-w-6xl mx-auto px-4">
         {/* Desktop Navigation */}
         <ul className="hidden md:flex items-center gap-4 uppercase text-sm tracking-widest text-primary/50">
@@ -18,8 +17,7 @@ const Header = () => {
             transition={{ duration: 0.5 }}
             className="flex items-center"
           >
-            <span className="text-xl font-bold text-primary">SC </span>
-            <Logo className="size-6 " />
+            <span className="text-xl font-bold text-primary">/SC/</span>
           </motion.li>
           {navItems.map((item, index) => (
             <motion.li
